@@ -1,0 +1,41 @@
+//****************************************************************************
+// git status
+//****************************************************************************
+
+imac@iMacs-iMac WorldHistory % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Country/
+        Git_Tutorial/
+        HelloWorld.py
+        trashbin.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+imac@iMacs-iMac WorldHistory % 
+
+//****************************************************************************
+// git add .
+//****************************************************************************
+
+imac@iMacs-iMac WorldHistory % git add .
+imac@iMacs-iMac WorldHistory % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Country/China.txt
+        new file:   Country/England.txt
+        new file:   Country/India.txt
+        new file:   Git_Tutorial/Ep01_StartGit/cmd01_git_init.txt
+        new file:   Git_Tutorial/Ep02_/cmd01_git_add.txt
+        new file:   Git_Tutorial/t.txt
+        new file:   HelloWorld.py
+        new file:   trashbin.txt
+
+imac@iMacs-iMac WorldHistory % 
