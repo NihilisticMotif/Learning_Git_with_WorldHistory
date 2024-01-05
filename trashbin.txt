@@ -1,3 +1,14 @@
+imac@iMacs-iMac WorldHistory % git restore China.txt
+error: pathspec 'China.txt' did not match any file(s) known to git
+imac@iMacs-iMac WorldHistory % cd Country 
+imac@iMacs-iMac Country % git restore China.txt
+error: pathspec 'China.txt' did not match any file(s) known to git
+imac@iMacs-iMac Country % git reset
+Unstaged changes after reset:
+D       Country/China.txt
+ 
+imac@iMacs-iMac WorldHistory % git add .
+ 
 imac@iMacs-iMac WorldHistory % git reset --hard f59d38b
 HEAD is now at f59d38b Delete India.txt file
  

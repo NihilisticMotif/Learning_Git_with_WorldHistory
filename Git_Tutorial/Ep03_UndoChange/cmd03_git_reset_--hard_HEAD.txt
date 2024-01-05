@@ -1,0 +1,25 @@
+//****************************************************************************
+// Delete a File
+//****************************************************************************
+
+imac@iMacs-iMac WorldHistory % git add .
+imac@iMacs-iMac Country % git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    China.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+//****************************************************************************
+// git reset --hard HEAD
+//----------------------------------------------------------------------------
+// Restore file by reset project
+//****************************************************************************
+
+imac@iMacs-iMac Country % git reset --hard HEAD
+HEAD is now at 14480bd Create cmd02_git_reset_--hard.txt file in Ep03_UndoChange folder
+imac@iMacs-iMac Country % ls
+China.txt       England.txt     India.txt
+imac@iMacs-iMac Country % 
