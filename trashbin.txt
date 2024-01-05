@@ -1,3 +1,9 @@
+
+imac@iMacs-iMac WorldHistory % git stash clear
+ 
+imac@iMacs-iMac WorldHistory % git stash clean
+fatal: subcommand wasn't specified; 'push' can't be assumed due to unexpected token 'clean'
+ 
 imac@iMacs-iMac WorldHistory % git stash pop
 On branch master
 Changes to be committed:
