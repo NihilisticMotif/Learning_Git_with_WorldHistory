@@ -1,0 +1,16 @@
+//****************************************************************************
+// git clone
+//----------------------------------------------------------------------------
+// clone other people's project, so that you can utilize their project.
+// https://github.com/NihilisticMotif/Diculator
+//****************************************************************************
+
+imac@iMacs-iMac WorldHistory % git clone https://github.com/NihilisticMotif/Diculator
+Cloning into 'Diculator'...
+remote: Enumerating objects: 62, done.
+remote: Counting objects: 100% (62/62), done.
+remote: Compressing objects: 100% (60/60), done.
+remote: Total 62 (delta 22), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (62/62), 679.08 KiB | 802.00 KiB/s, done.
+Resolving deltas: 100% (22/22), done.
+imac@iMacs-iMac WorldHistory % 

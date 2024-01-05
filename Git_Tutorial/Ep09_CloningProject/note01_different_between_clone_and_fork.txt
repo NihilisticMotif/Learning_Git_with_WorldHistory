@@ -1,0 +1,11 @@
+Git Clone: Creating a copy of selected repository in local computer 
+ * If you don’t have the permissions to make changes to it, 
+   your push attempt will be rejected by the remote. 
+   Otherwise, your changes will be directly integrated into the repository when you push.
+
+Git Fork: Creating a copy of selected repository in your git server
+ * Forking creates your own copy of a repository, meaning that you can make changes as much as you’d like. 
+   If you want, afterwards, you can create a pull request to integrate your changes to the original repository.
+
+Reference: 
+* https://www.educative.io/answers/what-is-the-difference-between-forking-and-cloning-in-git

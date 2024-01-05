@@ -1,3 +1,14 @@
+
+In this case, you would create a fork, work on the changes you want to implement, then create a pull request to merge the changes you’ve made from your fork into the original repository.
+
+Forks create a safe environment for the original repository 
+ 
+ 
+ 
+to 
+ 
+You will want 
+ 
 See 
  
 ihilisticMotif/Learning_Git_with_WorldHistory.git'
