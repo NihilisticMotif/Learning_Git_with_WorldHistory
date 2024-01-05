@@ -2,6 +2,7 @@ Git Clone: Creating a copy of selected repository in local computer
  * If you don’t have the permissions to make changes to it, 
    your push attempt will be rejected by the remote. 
    Otherwise, your changes will be directly integrated into the repository when you push.
+ * There is no git fork command. 
 
 Git Fork: Creating a copy of selected repository in your git server
  * Forking creates your own copy of a repository, meaning that you can make changes as much as you’d like. 

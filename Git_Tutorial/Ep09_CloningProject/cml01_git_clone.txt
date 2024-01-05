@@ -2,6 +2,10 @@
 // git clone
 //----------------------------------------------------------------------------
 // clone other people's project, so that you can utilize their project.
+ * If you don’t have the permissions to make changes to it, 
+   your push attempt will be rejected by the remote. 
+   Otherwise, your changes will be directly integrated into the repository when you push.
+ * In thiscase, I do not have permissions to change this repository.
 // https://github.com/NihilisticMotif/Diculator
 //****************************************************************************
 
@@ -14,3 +18,12 @@ remote: Total 62 (delta 22), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (62/62), 679.08 KiB | 802.00 KiB/s, done.
 Resolving deltas: 100% (22/22), done.
 imac@iMacs-iMac WorldHistory % 
+
+//****************************************************************************
+// ?
+//****************************************************************************
+
+imac@iMacs-iMac Diculator % git remote -v
+origin  https://github.com/NihilisticMotif/Diculator (fetch)
+origin  https://github.com/NihilisticMotif/Diculator (push)
+imac@iMacs-iMac Diculator % 
