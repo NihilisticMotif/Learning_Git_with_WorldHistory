@@ -1,0 +1,13 @@
+//****************************************************************************
+// git branch -d SelectedBranch
+//----------------------------------------------------------------------------
+// Delete the selected branch
+//****************************************************************************
+
+imac@iMacs-iMac WorldHistory % git branch -d Dystopia
+Deleted branch Dystopia (was cc79a35).
+imac@iMacs-iMac WorldHistory % git branch -d Utopia
+Deleted branch Utopia (was cc79a35).
+imac@iMacs-iMac WorldHistory % git branch
+* master
+imac@iMacs-iMac WorldHistory % 

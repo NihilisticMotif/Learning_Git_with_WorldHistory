@@ -1,0 +1,25 @@
+
+imac@iMacs-iMac WorldHistory % git add .
+imac@iMacs-iMac WorldHistory % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Git_Tutorial/Ep07_CreatingBranches/cml01_git_branch.txt
+
+imac@iMacs-iMac WorldHistory % git commit -m "Git_Tutorial: Creating Ep07 Folder"
+[master 74cad19] Git_Tutorial: Creating Ep07 Folder
+ 1 file changed, 14 insertions(+)
+ create mode 100644 Git_Tutorial/Ep07_CreatingBranches/cml01_git_branch.txt
+imac@iMacs-iMac WorldHistory % git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 557 bytes | 557.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/NihilisticMotif/Learning_Git_with_WorldHistory.git
+   cc79a35..74cad19  master -> master
+imac@iMacs-iMac WorldHistory % 
