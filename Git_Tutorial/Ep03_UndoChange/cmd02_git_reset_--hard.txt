@@ -1,0 +1,45 @@
+//****************************************************************************
+// Delete file and Update Git Project
+//****************************************************************************
+
+imac@iMacs-iMac WorldHistory % git add .
+imac@iMacs-iMac WorldHistory % git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Country/India.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+imac@iMacs-iMac WorldHistory % git add .
+imac@iMacs-iMac WorldHistory % git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    Country/India.txt
+
+imac@iMacs-iMac WorldHistory % git commit -m "Delete India.txt file"
+[master f59d38b] Delete India.txt file
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 Country/India.txt
+
+//****************************************************************************
+// Restore file by reset project
+//****************************************************************************
+
+imac@iMacs-iMac WorldHistory % git log --oneline
+f59d38b (HEAD -> master) Delete India.txt file
+e026b8b Create Ep04_ViewGitHistory folder with 2 txt files
+b10f657 Insert content in cmd01_git_restore.txt file
+8467266 Create cmd01_git_restore.txt file
+b1fb8bb Git Save Change
+8fb78f6 Add Languages of each countries
+imac@iMacs-iMac WorldHistory % git reset --hard e026b8b
+HEAD is now at e026b8b Create Ep04_ViewGitHistory folder with 2 txt files
+imac@iMacs-iMac WorldHistory % git log --oneline
+e026b8b (HEAD -> master) Create Ep04_ViewGitHistory folder with 2 txt files
+b10f657 Insert content in cmd01_git_restore.txt file
+8467266 Create cmd01_git_restore.txt file
+b1fb8bb Git Save Change
+8fb78f6 Add Languages of each countries
+imac@iMacs-iMac WorldHistory % 

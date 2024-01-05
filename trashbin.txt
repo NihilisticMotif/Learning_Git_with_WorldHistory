@@ -1,3 +1,8 @@
+imac@iMacs-iMac WorldHistory % git reset --hard f59d38b
+HEAD is now at f59d38b Delete India.txt file
+ 
+imac@iMacs-iMac WorldHistory % git diff
+ 
 //****************************************************************************
 // git log -p
 //----------------------------------------------------------------------------
