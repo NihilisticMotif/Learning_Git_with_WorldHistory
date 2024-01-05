@@ -2,6 +2,7 @@
 // git log -p
 //----------------------------------------------------------------------------
 // See detailed History
+// Click [control]+[Z] to exit
 //****************************************************************************
 
 imac@iMacs-iMac WorldHistory % git log -p
@@ -31,29 +32,3 @@ index e69de29..56de7f8 100644
 +imac@iMacs-iMac Country % git restore China.txt
 +imac@iMacs-iMac Country % cat China.txt
 +Language: Mandarin%                                                                                                                                                                                                    :
-
- 
-on
- 
-//----------------------------------------------------------------------------
-// -m = providing message
- 
-//****************************************************************************
- 
- -m
- 
-tatus
- 
-Visible and Hidden 
- 
-imac@iMacs-iMac WorldHistory % ls .Country
-ls: .Country: No such file or directory
- 
-Language
- 
- Language
- 
-Language
- 
-hinese Language
- 

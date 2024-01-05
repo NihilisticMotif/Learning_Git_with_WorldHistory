@@ -1,0 +1,41 @@
+//****************************************************************************
+// git log
+//****************************************************************************
+
+
+imac@iMacs-iMac WorldHistory % git log
+commit b10f6571f0b342f80ac6734ea431827088dca26e (HEAD -> master)
+Author: Nihilisticmotif <nemocheche@gmail.com>
+Date:   Fri Jan 5 13:57:47 2024 +0700
+
+    Insert content in cmd01_git_restore.txt file
+
+commit 84672669f3323d5c66e611892315cfbfc61c8ea1
+Author: Nihilisticmotif <nemocheche@gmail.com>
+Date:   Fri Jan 5 13:50:36 2024 +0700
+
+    Create cmd01_git_restore.txt file
+
+commit b1fb8bbfa26d6f788d13dedb8d6cd4dae04c32ff
+Author: Nihilisticmotif <nemocheche@gmail.com>
+Date:   Fri Jan 5 13:46:00 2024 +0700
+
+    Git Save Change
+
+commit 8fb78f6fb6a2273c9fe91758b1b2ce37fd8718c0
+Author: Nihilisticmotif <nemocheche@gmail.com>
+Date:   Fri Jan 5 13:41:38 2024 +0700
+
+    Add Languages of each countries
+imac@iMacs-iMac WorldHistory % 
+
+//****************************************************************************
+// git log --oneline
+//****************************************************************************
+
+imac@iMacs-iMac WorldHistory % git log --oneline
+b10f657 (HEAD -> master) Insert content in cmd01_git_restore.txt file
+8467266 Create cmd01_git_restore.txt file
+b1fb8bb Git Save Change
+8fb78f6 Add Languages of each countries
+imac@iMacs-iMac WorldHistory % 
