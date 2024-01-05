@@ -1,0 +1,14 @@
+//****************************************************************************
+// git branch newbranch # Creating New Branch
+// git branch           # Show all branch 
+//****************************************************************************
+
+imac@iMacs-iMac WorldHistory % git branch
+* master
+imac@iMacs-iMac WorldHistory % git branch Dystopia
+imac@iMacs-iMac WorldHistory % git branch Utopia
+imac@iMacs-iMac WorldHistory % git branch
+  Dystopia
+  Utopia
+* master
+imac@iMacs-iMac WorldHistory % 
