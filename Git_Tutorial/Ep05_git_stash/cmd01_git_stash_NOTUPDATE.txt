@@ -1,5 +1,5 @@
 //****************************************************************************
-// Create New File
+// Create New File named IshigamiVillage.txt
 //****************************************************************************
 
 imac@iMacs-iMac WorldHistory % git add .
