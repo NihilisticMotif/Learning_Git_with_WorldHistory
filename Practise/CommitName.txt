@@ -1,0 +1,8 @@
+// Update only Git_Tutorial folder
+git commit -m "Git_Tutorial: ..."
+
+// Update only Country folder 
+git commit -m "Country: ..."
+
+// Update all file
+git commit -m "WorldHistory: ..."

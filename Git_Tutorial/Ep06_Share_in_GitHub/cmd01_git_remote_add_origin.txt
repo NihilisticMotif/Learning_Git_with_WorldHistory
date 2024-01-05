@@ -1,0 +1,3 @@
+
+
+imac@iMacs-iMac pythagorean_triples % git remote add origin 
