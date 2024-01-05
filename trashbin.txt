@@ -1,3 +1,17 @@
+imac@iMacs-iMac WorldHistory % git stash pop
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Country/IshigamiVillage.txt
+
+Dropped refs/stash@{0} (e997ba89468231cc488f1519dac5c2b87c3b17d8)
+imac@iMacs-iMac WorldHistory % git stash  
+Saved working directory and index state WIP on master: 4be6bc8 Create cmd03_git_reset_--hard_HEAD.txt file in Ep03_UndoChange Folder
+imac@iMacs-iMac WorldHistory % git status
+On branch master
+nothing to commit, working tree clean
+imac@iMacs-iMac WorldHistory % 
+ 
 imac@iMacs-iMac WorldHistory % git restore China.txt
 error: pathspec 'China.txt' did not match any file(s) known to git
 imac@iMacs-iMac WorldHistory % cd Country 
