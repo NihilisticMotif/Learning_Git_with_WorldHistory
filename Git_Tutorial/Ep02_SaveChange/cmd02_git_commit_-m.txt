@@ -3,5 +3,26 @@
 //----------------------------------------------------------------------------
 // -m = providing message
 //****************************************************************************
+imac@iMacs-iMac WorldHistory % git add .      
+imac@iMacs-iMac WorldHistory % git commit -m "Add Languages of each countries"
+[master (root-commit) 8fb78f6] Add Languages of each countries
+ 9 files changed, 104 insertions(+)
+ create mode 100644 Country/China.txt
+ create mode 100644 Country/England.txt
+ create mode 100644 Country/India.txt
+ create mode 100644 Git_Tutorial/Ep01_StartGit/cmd01_git_init.txt
+ create mode 100644 Git_Tutorial/Ep02_SaveChange/cmd01_git_add.txt
+ create mode 100644 Git_Tutorial/Ep02_SaveChange/cmd02_git_commit_-m.txt
+ create mode 100644 Git_Tutorial/t.txt
+ create mode 100644 HelloWorld.py
+ create mode 100644 trashbin.txt
+imac@iMacs-iMac WorldHistory % 
 
-
+//****************************************************************************
+// git log --oneline
+//----------------------------------------------------------------------------
+// View Git History
+//****************************************************************************
+imac@iMacs-iMac WorldHistory % git log --oneline
+8fb78f6 (HEAD -> master) Add Languages of each countries
+imac@iMacs-iMac WorldHistory % 
