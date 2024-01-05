@@ -1,0 +1,19 @@
+//****************************************************************************
+// git restore myfile.js
+//----------------------------------------------------------------------------
+// Reset Change of the selected file
+//****************************************************************************
+
+imac@iMacs-iMac WorldHistory % git add .
+imac@iMacs-iMac WorldHistory % cd Country 
+imac@iMacs-iMac Country % cat China.txt
+Language: Mandarin%                                                                                                                                                                                                     
+imac@iMacs-iMac Country % cat China.txt
+Language: Chinese room%                                                                                                                                                                                                 
+imac@iMacs-iMac Country % git restore China.txt
+imac@iMacs-iMac Country % cat China.txt
+Language: Mandarin%                                                                                                                                                                                                     
+imac@iMacs-iMac Country % git status
+On branch master
+nothing to commit, working tree clean
+imac@iMacs-iMac Country % 
