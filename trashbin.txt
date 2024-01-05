@@ -1,3 +1,11 @@
+ihilisticMotif/Learning_Git_with_WorldHistory.git'
+ 
+imac@iMacs-iMac WorldHistory % git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/N
+ 
+error: remote origin already exists.
+ 
 
 imac@iMacs-iMac WorldHistory % git stash clear
  

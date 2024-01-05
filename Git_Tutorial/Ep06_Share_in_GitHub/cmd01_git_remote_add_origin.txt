@@ -1,3 +1,18 @@
+//****************************************************************************
+// Connect Project from Local Machine to GitHub cloud
+//****************************************************************************
 
-
-imac@iMacs-iMac pythagorean_triples % git remote add origin 
+imac@iMacs-iMac WorldHistory % git remote add origin https://github.com/NihilisticMotif/Learning_Git_with_WorldHistory.git
+imac@iMacs-iMac WorldHistory % git branch -M master
+imac@iMacs-iMac WorldHistory % git push -u origin master
+Enumerating objects: 83, done.
+Counting objects: 100% (83/83), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (72/72), done.
+Writing objects: 100% (83/83), 10.36 KiB | 1.73 MiB/s, done.
+Total 83 (delta 38), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (38/38), done.
+To https://github.com/NihilisticMotif/Learning_Git_with_WorldHistory.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+imac@iMacs-iMac WorldHistory % 
