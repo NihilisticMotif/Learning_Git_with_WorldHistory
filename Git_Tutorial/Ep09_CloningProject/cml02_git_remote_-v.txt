@@ -1,3 +1,6 @@
+//****************************************************************************
+// ?
+//****************************************************************************
 
 
 imac@iMacs-iMac WorldHistory % ls
@@ -7,4 +10,20 @@ imac@iMacs-iMac WorldHistory % cd Learning_Git_with_Isunsky
 imac@iMacs-iMac Learning_Git_with_Isunsky % git remote -v
 origin  https://github.com/NihilisticMotif/Learning_Git_with_Isunsky (fetch)
 origin  https://github.com/NihilisticMotif/Learning_Git_with_Isunsky (push)
+imac@iMacs-iMac Learning_Git_with_Isunsky % 
+
+//****************************************************************************
+// ?
+//****************************************************************************
+
+imac@iMacs-iMac WorldHistory % cd Learning_Git_with_Isunsky 
+imac@iMacs-iMac Learning_Git_with_Isunsky % git remote -v
+origin  https://github.com/NihilisticMotif/Learning_Git_with_Isunsky (fetch)
+origin  https://github.com/NihilisticMotif/Learning_Git_with_Isunsky (push)
+imac@iMacs-iMac Learning_Git_with_Isunsky % git remote add upstream origin
+imac@iMacs-iMac Learning_Git_with_Isunsky % git remote -v
+origin  https://github.com/NihilisticMotif/Learning_Git_with_Isunsky (fetch)
+origin  https://github.com/NihilisticMotif/Learning_Git_with_Isunsky (push)
+upstream        origin (fetch)
+upstream        origin (push)
 imac@iMacs-iMac Learning_Git_with_Isunsky % 
