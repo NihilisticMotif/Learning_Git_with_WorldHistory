@@ -1,0 +1,10 @@
+
+
+imac@iMacs-iMac WorldHistory % ls
+Country                         HelloWorld.py                   Practise
+Git_Tutorial                    Learning_Git_with_Isunsky       trashbin.txt
+imac@iMacs-iMac WorldHistory % cd Learning_Git_with_Isunsky 
+imac@iMacs-iMac Learning_Git_with_Isunsky % git remote -v
+origin  https://github.com/NihilisticMotif/Learning_Git_with_Isunsky (fetch)
+origin  https://github.com/NihilisticMotif/Learning_Git_with_Isunsky (push)
+imac@iMacs-iMac Learning_Git_with_Isunsky % 

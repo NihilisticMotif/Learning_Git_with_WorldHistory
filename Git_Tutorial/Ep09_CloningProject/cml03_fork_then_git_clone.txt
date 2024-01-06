@@ -1,0 +1,47 @@
+
+imac@iMacs-iMac WorldHistory % git clone https://github.com/NihilisticMotif/Learning_Git_with_Isunsky
+Cloning into 'Learning_Git_with_Isunsky'...
+remote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 29 (delta 4), reused 23 (delta 1), pack-reused 0
+Receiving objects: 100% (29/29), 107.41 KiB | 797.00 KiB/s, done.
+Resolving deltas: 100% (4/4), done.
+imac@iMacs-iMac WorldHistory % git add .
+warning: adding embedded git repository: Learning_Git_with_Isunsky
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint:   git submodule add <url> Learning_Git_with_Isunsky
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint:   git rm --cached Learning_Git_with_Isunsky
+hint: 
+hint: See "git help submodule" for more information.
+imac@iMacs-iMac WorldHistory % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Learning_Git_with_Isunsky
+
+imac@iMacs-iMac WorldHistory % git commit -m "Add new fork project"
+[master ed6c12a] Add new fork project
+ 1 file changed, 1 insertion(+)
+ create mode 160000 Learning_Git_with_Isunsky
+imac@iMacs-iMac WorldHistory % git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 291 bytes | 291.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/NihilisticMotif/Learning_Git_with_WorldHistory.git
+   647b636..ed6c12a  master -> master
+imac@iMacs-iMac WorldHistory % 
